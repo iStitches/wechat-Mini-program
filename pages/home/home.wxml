@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<text>Hello World</text>
+<view>{{love}}</view>
+<view class="body">
+  <button size="mini" bindtap="clickAdd">每天爱你多一点</button>
+  <button size="mini" bindtap="clickRemove">每天爱你少一点</button>
+  <button size="mini" open-type="getUserInfo" bindgetuserinfo="getUser">获取用户信息</button>
+</view>
+
